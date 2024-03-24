@@ -1,0 +1,115 @@
+/* Default styles */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    /* Light gray background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    /* White background for content */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Shadow effect */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    color: #333;
+    /* Dark text color */
+}
+
+h2 {
+    margin-top: 0;
+    color: #545353;
+    /* Lighter text color */
+}
+
+.personal-info,
+.education,
+.skills,
+.experience,
+.Aim {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    /* Rounded corners for sections */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li strong {
+    font-weight: bold;
+}
+
+/* Decorative styles for sections */
+.personal-info {
+    background-color: #ffe0b2;
+    /* Light orange */
+}
+
+.education {
+    background-color: #b2dfdb;
+    /* Light green */
+}
+
+.skills {
+    background-color: #ffc107;
+    /* Yellow */
+}
+
+.experience {
+    background-color: #e1bee7;
+    /* Light purple */
+}
+
+.Aim {
+    background-color: #81df7f;
+    /* Light green for Aim */
+}
+
+/* Decorative styles for links */
+
+.lang {
+    font-weight: bold;
+}
+
+/* Responsive styles */
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+        /* Reduce padding for smaller screens */
+        max-width: calc(100% - 20px);
+        /* Full width with a margin of 10px on each side */
+    }
+
+    h1 {
+        font-size: 24px;
+        /* Decrease font size for smaller screens */
+    }
+
+    h2 {
+        font-size: 20px;
+        /* Decrease font size for smaller screens */
+    }
+}
